@@ -1,0 +1,5 @@
+ ✓ tests/config-validator.test.ts (12 tests)
+ ✓ tests/claude-md.test.ts (10 tests)
+ ✓ tests/skills.test.ts (13 tests)
+ Test Files  3 passed (3)
+      Tests  35 passed (35)

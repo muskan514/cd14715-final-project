@@ -1,0 +1,4 @@
+{"turn":1,"agent":"claim-extractor","input_tokens":1200,"output_tokens":450,"stop_reason":"tool_use","claims_extracted":5}
+{"turn":2,"agent":"claim-verifier","input_tokens":2100,"output_tokens":680,"stop_reason":"tool_use","claims_verified":5,"verified":3,"failed":2}
+{"turn":3,"agent":"summarizer","input_tokens":1800,"output_tokens":520,"stop_reason":"end_turn","summary_generated":true}
+{"turn":4,"agent":"orchestrator","input_tokens":900,"output_tokens":120,"stop_reason":"end_turn","final_status":"completed"}

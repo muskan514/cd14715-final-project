@@ -1,0 +1,2 @@
+{"model":"claude-3-5-sonnet-control","score":0.71,"latency_ms":2100,"context_strategy":"full_context","passed":true}
+{"model":"claude-3-5-sonnet","score":0.87,"latency_ms":1234,"context_strategy":"sliding_window","passed":true}

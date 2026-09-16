@@ -1,0 +1,8 @@
+{
+  "total_budget_tokens": 100000,
+  "used_tokens": 45230,
+  "remaining_tokens": 54770,
+  "strategy": "sliding_window_with_summarization",
+  "window_size": 20000,
+  "summarization_threshold": 0.8
+}

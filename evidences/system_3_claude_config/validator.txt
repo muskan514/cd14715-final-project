@@ -1,0 +1,6 @@
+CLAUDE.md validator: PASS
+- CLAUDE.md exists
+- .claude/settings.json valid
+- .claude/skills/ present
+- No disallowed patterns
+- All required sections present

@@ -1,0 +1,6 @@
+ ✓ tests/orchestrator.test.ts (10 tests)
+ ✓ tests/hot-state.test.ts (8 tests)
+ ✓ tests/fork.test.ts (7 tests)
+ ✓ tests/shift.test.ts (8 tests)
+ Test Files  4 passed (4)
+      Tests  33 passed (33)
