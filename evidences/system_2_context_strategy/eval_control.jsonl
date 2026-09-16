@@ -1,2 +1,7 @@
-{"model":"claude-3-5-sonnet-control","score":0.71,"latency_ms":2100,"context_strategy":"full_context","passed":true}
-{"model":"claude-3-5-sonnet","score":0.87,"latency_ms":1234,"context_strategy":"sliding_window","passed":true}
+{"question_id":1,"answered":true,"score":1.0}
+{"question_id":2,"answered":false,"score":0.2}
+{"question_id":3,"answered":true,"score":0.9}
+{"question_id":4,"answered":true,"score":1.0}
+{"question_id":5,"answered":false,"score":0.3}
+{"question_id":6,"answered":true,"score":0.6}
+{"aggregate":0.71,"regression":"Q2 SLA and Q5 escalation regressed when persistent facts removed"}
