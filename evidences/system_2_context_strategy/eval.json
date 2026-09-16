@@ -1,7 +1,14 @@
-{"question_id":1,"answered":true,"score":1.0}
-{"question_id":2,"answered":true,"score":1.0}
-{"question_id":3,"answered":true,"score":1.0}
-{"question_id":4,"answered":true,"score":1.0}
-{"question_id":5,"answered":true,"score":0.8}
-{"question_id":6,"answered":true,"score":0.6}
-{"aggregate":0.87,"answered":5,"total":6}
+{
+  "model": "claude-3-5-sonnet",
+  "aggregate_score": 0.87,
+  "answered": 5,
+  "total": 6,
+  "questions": [
+    {"question_id": 1, "answered": true, "score": 1.0},
+    {"question_id": 2, "answered": true, "score": 1.0},
+    {"question_id": 3, "answered": true, "score": 1.0},
+    {"question_id": 4, "answered": true, "score": 1.0},
+    {"question_id": 5, "answered": true, "score": 0.8},
+    {"question_id": 6, "answered": true, "score": 0.6}
+  ]
+}
