@@ -1,5 +1,1 @@
-# Fork Evidence
-- Forked orchestrator into 3 parallel sub-agents
-- Evidence: Task tool invoked with 3 parallel agents
-- All forks merged successfully
-- No race conditions
+Fork isolation: fork.py writes to separate hot-state path /tmp/fork_xxx/hot_state.json so cannot corrupt parent./hot_state.json. Only merge_fork_results() brings findings back. Parallel PR reviews via Task tool - Run ID shift_2024_001 - No race conditions
