@@ -1,8 +1,10 @@
 {
   "total_budget_tokens": 100000,
+  "raw_baseline_tokens": 98230,
   "used_tokens": 45230,
   "remaining_tokens": 54770,
+  "reduction_percent": 54,
   "strategy": "sliding_window_with_summarization",
-  "window_size": 20000,
-  "summarization_threshold": 0.8
+  "summarized_tokens": 12000,
+  "verbatim_tokens": 33230
 }
