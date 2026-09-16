@@ -1,0 +1,20 @@
+
+> claude-multiagent-code-review-starter@1.0.0 test
+> vitest run --reporter=verbose
+
+
+[1m[46m RUN [49m[22m [36mv4.0.17 [39m[90m/voc/work/cd14715-claude-code-classroom/project/starter[39m
+
+ [32m✓[39m tests/orchestrator.test.ts[2m > [22mCodeReviewOrchestrator[2m > [22mConfiguration[2m > [22mshould initialize with default options[32m 1[2mms[22m[39m
+ [32m✓[39m tests/orchestrator.test.ts[2m > [22mCodeReviewOrchestrator[2m > [22mConfiguration[2m > [22mshould accept custom rate limit configuration[32m 0[2mms[22m[39m
+ [32m✓[39m tests/orchestrator.test.ts[2m > [22mCodeReviewOrchestrator[2m > [22mreviewPullRequest[2m > [22mshould fetch PR files from GitHub MCP[32m 0[2mms[22m[39m
+ [32m✓[39m tests/orchestrator.test.ts[2m > [22mCodeReviewOrchestrator[2m > [22mreviewPullRequest[2m > [22mshould spawn all 3 subagents in parallel[32m 0[2mms[22m[39m
+ [32m✓[39m tests/orchestrator.test.ts[2m > [22mCodeReviewOrchestrator[2m > [22mreviewPullRequest[2m > [22mshould aggregate results into ReviewReport[32m 0[2mms[22m[39m
+ [32m✓[39m tests/orchestrator.test.ts[2m > [22mCodeReviewOrchestrator[2m > [22mreviewPullRequest[2m > [22mshould validate output with Zod schema[32m 0[2mms[22m[39m
+ [2m[90m↓[39m[22m tests/orchestrator.test.ts[2m > [22mCodeReviewOrchestrator[2m > [22mIntegration[2m > [22mshould review a real small PR
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m6 passed[39m[22m[2m | [22m[33m1 skipped[39m[90m (7)[39m
+[2m   Start at [22m 07:13:48
+[2m   Duration [22m 251ms[2m (transform 36ms, setup 0ms, import 50ms, tests 3ms, environment 0ms)[22m
+
