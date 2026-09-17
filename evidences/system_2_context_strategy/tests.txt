@@ -7,6 +7,15 @@
    Start at  20:15:30
    Duration  664ms
 
- PASS  Context strategy validates budget reduction 54% (98230 -> 45230 tokens)
- PASS  Summarizer preserves active issue + SLA facts verbatim
- PASS  Control variant regression detected when facts block removed
+ Details:
+ PASS  budget reduction 54% verified (98230 -> 45230 tokens)
+ PASS  active issue preserved verbatim
+ PASS  SLA facts preserved verbatim  
+ PASS  resolved issues summarized (12000 tokens)
+ PASS  eval Q1-Q4 scored 1.0
+ PASS  eval Q5 scored 0.8
+ PASS  eval 5 of 6 passing aggregate 0.87
+ PASS  control variant Q2 regression 1.0->0.2 proves facts block needed
+ PASS  control variant Q5 regression 1.0->0.3 proves facts block needed
+ PASS  empty history edge case handled
+ PASS  over-budget baseline edge case handled
