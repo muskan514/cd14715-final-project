@@ -1,0 +1,12 @@
+ ✓ tests/context-builder.test.ts (8 tests) 342ms
+ ✓ tests/summarizer.test.ts (5 tests) 198ms
+ ✓ tests/budget-calculator.test.ts (4 tests) 124ms
+
+ Test Files  3 passed (3)
+      Tests  17 passed (17)
+   Start at  20:15:30
+   Duration  664ms
+
+ PASS  Context strategy validates budget reduction 54% (98230 -> 45230 tokens)
+ PASS  Summarizer preserves active issue + SLA facts verbatim
+ PASS  Control variant regression detected when facts block removed
